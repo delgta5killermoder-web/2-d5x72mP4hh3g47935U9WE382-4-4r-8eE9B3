@@ -6,8 +6,8 @@ setlocal EnableExtensions EnableDelayedExpansion
 ::  Unauthorized copying, modification, or redistribution
 ::  of this script, in whole or in part, is strictly prohibited.
 set "CURRENT_VER=2.3.5"
-set "RAW_VER=set "RAW_VER=https://raw.githubusercontent.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/main/version.txt""
-set "RAW_BAT=set "RAW_BAT=https://raw.githubusercontent.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/main/FixWave.bat""
+set "RAW_VER=https://raw.githubusercontent.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/main/version.txt""
+set "RAW_BAT=https://raw.githubusercontent.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/main/FixWave.bat""
 for /f "delims=" %%D in ('powershell -NoProfile -Command "[Environment]::GetFolderPath('Desktop')"') do set "DESKTOP=%%D"
 set "NEWFILE=%DESKTOP%\FixWave.bat"
 set "LATEST_VER="
